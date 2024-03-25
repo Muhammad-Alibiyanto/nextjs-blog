@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+.logo {
+  margin: 0 auto 40px;
+  display: block;
+}
+.title {
+  font-family: 'Europa-Bold', sans-serif;
+  font-size: 54px;
+  line-height: 68px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .logo {
+    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+  }
+}

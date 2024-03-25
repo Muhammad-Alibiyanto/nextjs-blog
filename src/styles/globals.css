@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Europa-Bold';
+  src: url('/fonts/Europa-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Europa-Regular';
+  src: url('/fonts/Europa-Regular.ttf');
+}
+
+:root {
+  --screen-width: 1360px;
+  --border-radius: 12px;
+  
+  /** colors variables **/
+  --primary-color: #2dcbd4;
+  --secondary-color: #e6bf22;
+  --text-color: #121416;
+  --grey-color: #6C757D;
+  --white-color: #FFFFFF;
+  --placeholder-color: #757575;
+  --stroke-color: #E3E3E3;
+  --background-overlay: rgba(0,0,0,0.39);
+  --background-color: #FAFAFA;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: 'Europa-Regular', sans-serif;
+}
+.page-container {
+  background-color: var(--background-color);
+}

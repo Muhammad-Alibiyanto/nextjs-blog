@@ -1,0 +1,28 @@
+.heading1 {
+    font-family: 'Europa-Bold', sans-serif;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: var(--text-color);
+}
+.heading4 {
+    font-family: 'Europa-Regular', sans-serif;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+
+.uppercase {
+    text-transform: uppercase;
+}
+.text-center {
+    text-align: center;
+}
+
+
+.text-white {
+    color: var(--white-color);
+}
